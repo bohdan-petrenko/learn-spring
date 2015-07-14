@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Spring4 notes</title>
+    <style>
+        code {
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>
+            Для того щоб запуститу сервак по бирому, для тестування працездатності, достатньо написати наступний main класс
+            <code>
+                @SpringBootApplication
+                public class Application {
+                    public static void main(String[] args) {
+                        SpringApplication.run(Application.class, args);
+                    }
+                }
+            </code>
+            <a href="http://spring.io/guides/gs/rest-service/">Детальніше</a>
+        </li>
+        <li>
+            Для реалізації запитів до API достатньо стрічки коду.
+            <code>
+                RestTemplate restTemplate = new RestTemplate();
+                ResponseObject response = restTemplate.getForObject("http://api-url/request", ResponseObject.class);
+            </code>
+            <a href="http://spring.io/guides/gs/consuming-rest/">Детальніше</a>
+        </li>
+    </ol>
+</body>
+</html>
