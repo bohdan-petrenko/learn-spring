@@ -1,4 +1,4 @@
-package lesson1;
+package head1.module1.lesson1;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

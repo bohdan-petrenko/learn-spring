@@ -1,4 +1,4 @@
-package lesson2;
+package head1.module1.lesson2;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

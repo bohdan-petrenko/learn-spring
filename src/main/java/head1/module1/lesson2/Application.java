@@ -1,4 +1,4 @@
-package lesson2;
+package head1.module1.lesson2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

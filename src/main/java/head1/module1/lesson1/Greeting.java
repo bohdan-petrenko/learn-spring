@@ -1,4 +1,4 @@
-package lesson1;
+package head1.module1.lesson1;
 
 /**
  * Created by Petrenko on 14.07.2015.
